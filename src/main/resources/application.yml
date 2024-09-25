@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: learn-sqs-gradle-producer
+
+aws:
+    region: ${REGION_AWS:us-east-1}
+    accessKey: ${ACCESS_KEY_AWS}
+    secretKey: ${SECRET_KEY_AWS}
+    sqs:
+        queue: ${QUEUE_AWS}
